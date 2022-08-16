@@ -56,11 +56,7 @@ Always be assured of the product quality and a guaranteed return in case you are
       border: none !important;
   }
   /*uniket-may-200.webflow.css file code */
-  .swiper-pagination
-  {
-    margin-top:8px !important;
-    position: static !important;
-  }
+  
   .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -174,40 +170,6 @@ Always be assured of the product quality and a guaranteed return in case you are
   padding-left: 16px;
 }
 
-.swiper {
-  position: relative;
-  overflow: visible;
-}
-
-.swiper-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-}
-
-.swiper-wrapper.first-swiper-wrapper {
-  position: static;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100vw;
-  max-height: 415px;
-  max-width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
-  grid-auto-columns: 1fr;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-}
-
 .content {
   overflow: hidden;
   width: 100%;
@@ -219,25 +181,6 @@ Always be assured of the product quality and a guaranteed return in case you are
 .icon {
   font-size: 25px;
   font-weight: 700;
-}
-
-.slide {
-  position: relative;
-  z-index: 10;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  min-width: 100%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
 }
 
 .slide-img {
@@ -337,42 +280,6 @@ Always be assured of the product quality and a guaranteed return in case you are
   padding-right: 1em;
   padding-left: 0em;
 }
-
-.swiper-slide {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  opacity: 0.9;
-  color: hsla(0, 0%, 100%, 0.5);
-}
-
-.swiper-container.first-swiper {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .carousel-arrow-oval {
   position: absolute;
   left: 0%;
@@ -1484,7 +1391,7 @@ Always be assured of the product quality and a guaranteed return in case you are
   min-width: 100vw;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 5px;
+  padding-top: 20px;
   padding-right: 16px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -2318,20 +2225,7 @@ Always be assured of the product quality and a guaranteed return in case you are
     padding-bottom: 17px;
   }
 
-  .swiper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100vw;
-  }
-
-  .swiper-wrapper.first-swiper-wrapper {
-    max-height: 250px;
-    max-width: 770px;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
+  
 
   .icon {
     font-size: 20px;
@@ -2346,9 +2240,6 @@ Always be assured of the product quality and a guaranteed return in case you are
     min-height: 100%;
   }
 
-  .swiper-container.first-swiper {
-    display: block;
-  }
 
   .top-brands-parent-wrap.nowpa._100vw {
     overflow: visible;
@@ -2504,6 +2395,7 @@ Always be assured of the product quality and a guaranteed return in case you are
 
   .top-brands-parent-wrap-2 {
     padding-left: 16px;
+    padding-top:8px;
   }
 
   .grid {
@@ -2622,10 +2514,6 @@ Always be assured of the product quality and a guaranteed return in case you are
 
   .section.offer-of-the-day-top.bottom {
     padding-top: 18%;
-  }
-
-  .swiper-wrapper.first-swiper-wrapper {
-    max-width: 570px;
   }
 
   .slide {
@@ -2844,11 +2732,6 @@ Always be assured of the product quality and a guaranteed return in case you are
     padding-bottom: 2px;
   }
 
-  .swiper-wrapper.first-swiper-wrapper {
-    position: relative;
-    z-index: 90;
-    max-height: 200px;
-  }
 
   .icon {
     font-size: 15px;
@@ -2883,9 +2766,6 @@ Always be assured of the product quality and a guaranteed return in case you are
     position: static;
   }
 
-  .swiper-slide {
-    position: relative;
-  }
 
   .carousel-arrow-oval {
     left: 1%;
@@ -6166,196 +6046,220 @@ th {
 <body class="body">
   <div class="parent-wrap">
     <div class="section wf-section hero-slider">
-      
         <!DOCTYPE html>
         <html lang="en">
-        <head>
-          <meta charset="utf-8">
-          <title>Swiper demo</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-          <!--  Link Swiper's CSS  -->
-          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-          <!--  Demo styles  -->
-          <style>
-    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    /*bottom: -25px;*/
-    left: 0;
-    width: 100%;
-}
-.swiper-button-next:after, .swiper-button-prev:after {
-    font-size: 20px;
-    font-weight: bold;
-    color: #1D1D1B;
-}
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
-    left: 10px;
-    right: auto;
-    border-radius: 60%;
-    background-color: #fff;
-    min-width: 36px;
-    min-height: 36px;
-    max-width: 36px;
-    max-height: 36px;
-}
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: 10px;
-    left: auto;
-    border-radius: 60%;
-    background-color: #fff;
-   min-width: 36px;
-    min-height: 36px;
-    max-width: 36px;
-    max-height: 36px;
-}
-      .swiper {
-        width: 100%;
-        height: 100%;
-        overflow: visible;
-      }
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .swiper {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1408px;
-      }
-
-      .web-and-mobile {
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    .web-and-mobile {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -webkit-flex-direction: column-reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-      }
-
-
-      .parent-wrap {
-      overflow: hidden;
-      width: 100%;
-      /*max-width: 1440px;*/
-      margin-right: auto;
-      margin-left: auto;
-      font-family: Montserrat, sans-serif;
-      color: #000;
-      background-color: #fff !important;
-    }
-
-    .hero-wrap {
-      width: 100%;
-      margin-right: auto;
-      margin-left: auto;
-    }
- @media screen and (max-width: 479px) {
- .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    min-height: 170px;
-}
-.swiper-button-next:after, .swiper-button-prev:after {
-    font-size: 12px;
-    font-weight: bold;
-}
-   .swiper-button-prev, .swiper-rtl .swiper-button-next{
-    min-width: 32px;
-    min-height: 32px;
-    max-width: 32px;
-    max-height: 32px;
-}
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-    min-width: 32px;
-    min-height: 32px;
-    max-width: 32px;
-    max-height: 32px;
-}
-      }
-    </style>
-        </head>
-          <!--  Swiper  -->
-          <body class="body">
-            <div class="parent-wrap">
-              <div class="hero-wrap">
-                <div class="web-and-mobile">
-                    <div class="swiper-pagination"></div>
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
+          <head>
+            <meta charset="utf-8" />
+            <title>Swiper demo</title>
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+            />
+            <!-- Link Swiper's CSS -->
+            <link
+              rel="stylesheet"
+              href="https://unpkg.com/swiper/swiper-bundle.min.css"
+            />
+        
+            <!-- Demo styles -->
+            <style>
+              .swiper-pagination
+              {
+                position:static !important;
+                margin-top:8px;
+              }
+              .swiper-horizontal > .swiper-pagination-bullets,
+              .swiper-pagination-bullets.swiper-pagination-horizontal,
+              .swiper-pagination-custom,
+              .swiper-pagination-fraction {
+                bottom: -25px;
+                left: 0;
+                width: 100%;
+              }
+              .swiper-button-next:after,
+              .swiper-button-prev:after {
+                font-size: 20px;
+                font-weight: bold;
+                color: #1d1d1b;
+              }
+        
+              .swiper-button-prev,
+              .swiper-rtl .swiper-button-next {
+                left: 10px;
+                right: auto;
+                border-radius: 60%;
+                background-color: #fff;
+                min-width: 36px;
+                min-height: 36px;
+                max-width: 36px;
+                max-height: 36px;
+              }
+        
+              .swiper-button-next,
+              .swiper-rtl .swiper-button-prev {
+                right: 10px;
+                left: auto;
+                border-radius: 60%;
+                background-color: #fff;
+                min-width: 36px;
+                min-height: 36px;
+                max-width: 36px;
+                max-height: 36px;
+              }
+        
+              .swiper {
+                width: 100%;
+                height: 100%;
+                overflow: visible;
+              }
+        
+              .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+        
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+              }
+        
+              .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+        
+              .swiper {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1408px;
+              }
+              @media screen and (max-width: 479px) {
+                .swiper-slide img {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  min-height: 170px;
+                }
+                .swiper-button-next:after,
+                .swiper-button-prev:after {
+                  font-size: 12px;
+                  font-weight: bold;
+                }
+        
+                .swiper-button-prev,
+                .swiper-rtl .swiper-button-next {
+                  min-width: 32px;
+                  min-height: 32px;
+                  max-width: 32px;
+                  max-height: 32px;
+                }
+        
+                .swiper-button-next,
+                .swiper-rtl .swiper-button-prev {
+                  min-width: 32px;
+                  min-height: 32px;
+                  max-width: 32px;
+                  max-height: 32px;
+                }
+              }
+            </style>
+          </head>
+        
+          <body>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="https://www.uniket.store/collection/camro-upto-67-off--extra-15-off" target="_blank" class="slide w-inline-block"><img src="https://hdn-1.fynd.com/misc/general/free/original/kbIrfEr9P-camro.gif" loading="lazy" width="300" height="450" alt="Lancer Brand Day upto 35% off + Extra 5% off Uniket" class="slide-img"></a>
-                  </div>
-              <div class="swiper-slide">
-                <a href="https://www.uniket.store/collection/aqualite-upto-28--extra-15-off" target="_blank" class="slide w-inline-block"><img src="https://hdn-1.fynd.com/company/884/applications/000000000000000000000004/screensaver/pictures/free-banner/original/uN4cVrtbg-Screensaver.png" loading="lazy" width="300" height="450" alt="Combit upto 40% off Uniket" class="slide-img"></a>
+                  <a
+                    href="https://www.uniket.store/collection/camro-upto-67-off--extra-15-off"
+                    target="_blank"
+                    class="slide w-inline-block"
+                    ><img
+                      src="https://hdn-1.fynd.com/misc/general/free/original/kbIrfEr9P-camro.gif"
+                      loading="lazy"
+                      width="300"
+                      height="450"
+                      alt="Lancer Brand Day upto 35% off + Extra 5% off Uniket"
+                      class="slide-img"
+                  /></a>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    href="https://www.uniket.store/collection/aqualite-upto-28--extra-15-off"
+                    target="_blank"
+                    class="slide w-inline-block"
+                    ><img
+                      src="https://hdn-1.fynd.com/company/884/applications/000000000000000000000004/screensaver/pictures/free-banner/original/uN4cVrtbg-Screensaver.png"
+                      loading="lazy"
+                      width="300"
+                      height="450"
+                      alt="Combit upto 40% off Uniket"
+                      class="slide-img"
+                  /></a>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    href="https://t.me/uniketaapkibadhtidukaan"
+                    target="_blank"
+                    class="slide w-inline-block"
+                    ><img
+                      src="https://hdn-1.fynd.com/company/884/applications/000000000000000000000004/screensaver/pictures/free-banner/original/hfO8zThaR-Screensaver.png"
+                      loading="lazy"
+                      width="300"
+                      height="450"
+                      alt="Uniket Telegram"
+                      class="slide-img"
+                  /></a>
+                </div>
               </div>
-              <div class="swiper-slide">
-                <a href="https://www.uniket.store/collections" target="_blank" class="slide w-inline-block"><img src="https://hdn-1.fynd.com/company/884/applications/000000000000000000000004/screensaver/pictures/free-banner/original/RBn-B-M67-Screensaver.png" loading="lazy" width="300" height="450" alt="Uniket USP" class="slide-img"></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="https://t.me/uniketaapkibadhtidukaan" target="_blank" class="slide w-inline-block"><img src="https://hdn-1.fynd.com/company/884/applications/000000000000000000000004/screensaver/pictures/free-banner/original/hfO8zThaR-Screensaver.png" loading="lazy" width="300" height="450" alt="Uniket Telegram" class="slide-img"></a>
-              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            
-          </div>
-          <!--  Swiper JS  -->
-          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-          <!--  Initialize Swiper  -->
-          <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-        </body>
+        
+            <!-- Swiper JS 
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        
+            <!-Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        
+            <!-- Initialize Swiper -->
+            <script>
+              var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                  delay: 2500,
+                  disableOnInteraction: false
+                },
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true
+                },
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev"
+                }
+              });
+            </script>
+          </body>
         </html>
+
+        
       </div>
     
   </div>
