@@ -183,15 +183,6 @@ Always be assured of the product quality and a guaranteed return in case you are
   font-weight: 700;
 }
 
-.slide-img {
-  z-index: 0;
-  width: 100vw;
-  height: auto;
-  max-width: 100vw;
-  min-width: 100vw;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
 
 .carousel-arrow-w {
   position: relative;
@@ -1996,11 +1987,7 @@ Always be assured of the product quality and a guaranteed return in case you are
     min-width: 1280px;
   }
 
-  .slide-img {
-    width: 100%;
-    max-width: none;
-    min-width: 1280px;
-  }
+
 
   .main-cover-grid {
     width: 100%;
@@ -2157,16 +2144,12 @@ Always be assured of the product quality and a guaranteed return in case you are
 }
 
 @media screen and (min-width: 1920px) {
-  /*.slide {
+.slide {
     width: 1440px;
     min-width: 1440px;
   }
 
-  .slide-img {
-    width: 1440px;
-    max-width: 1440px;
-    min-width: 1440px;
-  }*/
+
 
   .top-brands-parent-wrap {
     overflow: scroll;
@@ -2236,9 +2219,7 @@ Always be assured of the product quality and a guaranteed return in case you are
     min-height: 100%;
   }
 
-  .slide-img {
-    min-height: 100%;
-  }
+
 
 
   .top-brands-parent-wrap.nowpa._100vw {
@@ -2520,10 +2501,7 @@ Always be assured of the product quality and a guaranteed return in case you are
     height: 100%;
   }
 
-  .slide-img {
-    height: 100%;
-    min-height: 100%;
-  }
+
 
   .top-brands-parent-wrap.nowpa {
     display: -webkit-box;
@@ -6136,8 +6114,8 @@ th {
               .swiper-slide img {
                 display: block;
                 width: 100%;
-                height: 100%;
                 object-fit: cover;
+                height:100%
               }
         
               .swiper {
@@ -6149,7 +6127,7 @@ th {
                 .swiper-slide img {
                   display: block;
                   width: 100%;
-                  height: 100%;
+                  height:100%;
                   object-fit: cover;
                   min-height: 170px;
                 }
